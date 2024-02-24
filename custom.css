@@ -1,0 +1,65 @@
+
+/* Set border-radius and padding for scrollbar arrow images */
+selector .ts-course-category > .row::-webkit-scrollbar-button {
+    border-radius: 5px;
+    padding: 5px; /* Adjust the padding value according to your preference */
+}
+
+/* Rest of your existing styles for scrollbar and arrows */
+
+/* Custom scrollbar style */
+selector .ts-course-category > .row::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+    height: 25px;
+}
+
+/* Handle (thumb) of the scrollbar */
+/* Set gradient background for scrollbar thumb */
+selector .ts-course-category > .row::-webkit-scrollbar-thumb {
+background: linear-gradient(360deg, rgba(36,112,221,1) 50%, rgba(255,255,255,1) 1%);
+
+ /* Replace with your gradient colors */
+    border-radius: 0px; /* Border radius to round the thumb */
+    
+}
+
+
+/* Arrow up button */
+selector .ts-course-category > .row::-webkit-scrollbar-button:start:decrement {
+    height: 50px; /* Set the minimum height of the arrow */
+    background-color: #ddd; /* Color of the arrow button */
+    background-image: url('arrow-up.png'); /* Replace with your arrow-up image path */
+    background-size: contain; /* Set the size of the arrow icon */
+    background-repeat: no-repeat; /* Prevent icon repetition */
+    background-position: center; /* Center the icon within the button */
+}
+
+/* Arrow down button */
+selector .ts-course-category > .row::-webkit-scrollbar-button:end:increment {
+    height: 50px; /* Set the minimum height of the arrow */
+    background-color: #ddd; /* Color of the arrow button */
+    background-image: url('arrow-down.png'); /* Replace with your arrow-down image path */
+    background-size: contain; /* Set the size of the arrow icon */
+    background-repeat: no-repeat; /* Prevent icon repetition */
+    background-position: center; /* Center the icon within the button */
+}
+
+/* Arrow left button (horizontal scrollbar) */
+selector .ts-course-category > .row::-webkit-scrollbar-button:horizontal:start:decrement {
+    width: 25px; /* Set the minimum width of the arrow */
+    background-color: #ddd; /* Color of the arrow button */
+    background-image: url('https://manhg.online/wp-content/uploads/2024/02/left-arrow.png'); /* Replace with your arrow-left image path */
+    background-size: 15px; /* Set the size of the arrow icon */
+    background-repeat: no-repeat; /* Prevent icon repetition */
+    background-position: center; /* Center the icon within the button */
+}
+
+/* Arrow right button (horizontal scrollbar) */
+selector .ts-course-category > .row::-webkit-scrollbar-button:horizontal:end:increment {
+    width: 25px; /* Set the minimum width of the arrow */
+    background-color: #ddd; /* Color of the arrow button */
+    background-image: url('https://manhg.online/wp-content/uploads/2024/02/arrow-point-to-right.png'); /* Replace with your arrow-right image path */
+    background-size: 15px; /* Set the size of the arrow icon */
+    background-repeat: no-repeat; /* Prevent icon repetition */
+    background-position: center; /* Center the icon within the button */
+}
