@@ -1,2 +1,2 @@
 # Custom-Scrollbar-with-Arrow
-Here is the code of custom scrollbar with arrow
+This is the code I just created for when I created a horizontal scrollbar. Like a carousel.
